@@ -5,10 +5,10 @@ function loginUser() {
   closeButton.click();
   browser.pause(7000);
 
-  const signingIN = $(
+  const AccountButton = $(
     "#header-block > div.header-large > div.fullbleed-wrapper > div > nav.utility-navigation > ul > li:nth-child(1) > button > div.BtnTxt"
   );
-  signingIN.click();
+  AccountButton.click();
   browser.pause(3000);
 
   const signButton = $(
@@ -16,15 +16,15 @@ function loginUser() {
   );
   signButton.click();
 
-  const userName = $('//*[@id="fld-e"]');
-  userName.click();
-  userName.addValue("masoodahmadi553@gmail.com ");
+  const userNameField = $('//*[@id="fld-e"]');
+  userNameField.click();
+  userNameField.addValue("masoodahmadi553@gmail.com ");
 
-  const passName = $(
+  const passField = $(
     "/html/body/div[1]/div/section/main/div[2]/div[1]/div/div/div/div/form/div[2]/div/div/input"
   );
-  passName.click();
-  passName.addValue("A123456789AA");
+  passField.click();
+  passField.addValue("A123456789AA");
   browser.pause(5000);
 
   const saveButton = $(".btn-secondary");
@@ -32,3 +32,4 @@ function loginUser() {
   browser.pause(7000);
 }
 module.exports = { loginUser };
+5;

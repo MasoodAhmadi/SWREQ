@@ -9,9 +9,9 @@ describe("should open Best buy website", () => {
   it("step 1: opening baseURL address", () => {
     openURL(BASE_URL);
   });
-  // it("step 2: login to user and password", () => {
-  //   loginUser(variable, email, password);
-  // });
+  it("step 2: login to user and password", () => {
+    loginUser(variable, email, password);
+  });
   it("step 3: search product", () => {
     searchProduct(variable);
   });
