@@ -5,5 +5,5 @@ module.exports = {
   openURL,
   loginUser,
   searchProduct,
-  //variable: require("./config.json"),
+  variable: require("./config.json"),
 };

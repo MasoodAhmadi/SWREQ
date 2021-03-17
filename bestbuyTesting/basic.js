@@ -7,7 +7,7 @@ let {
 } = process.env;
 describe("should open Best buy website", () => {
   it("step 1: opening baseURL address", () => {
-    openURL(BASE_URL);
+    openURL(variable, BASE_URL);
   });
   it("step 2: login to user and password", () => {
     loginUser(variable, email, password);
