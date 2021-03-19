@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "mocha",
+    "test": "allure generate allure-results/ --clean && allure open",
     "start": "npx wdio wdio.conf.js"
   },
   "dependencies": {

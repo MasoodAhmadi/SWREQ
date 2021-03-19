@@ -35,6 +35,20 @@
       "targets": [],
       "value": ""
     }, {
+      "id": "2f48266f-ac0e-4367-a5c1-e770b46cfb33",
+      "comment": "",
+      "command": "//click",
+      "target": "css=div:nth-child(1) > .country-selection > .us-link > img",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "80e97a21-4b2b-47e7-809d-4390f46b22a8",
+      "comment": "",
+      "command": "",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
       "id": "2c3b65ba-f91f-4856-95bf-118290a3f6c5",
       "comment": "",
       "command": "click",
